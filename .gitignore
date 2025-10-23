@@ -1,0 +1,27 @@
+# Rust
+target/
+Cargo.lock
+
+# PostgreSQL extension files
+*.so
+*.dylib
+*.dll
+
+# Build artifacts
+*.o
+*.a
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pgrx generated files
+/sql/*.sql
+/sql/generated
+/.pgrx/
